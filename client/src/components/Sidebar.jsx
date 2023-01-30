@@ -112,6 +112,7 @@ const Sidebar = ({
     useEffect(() => {
         setActive(pathname.substring(1))
     }, [pathname])
+    
   return (
     <Box component="nav">
         {isSidebarOpen && (
@@ -202,3 +203,4 @@ const Sidebar = ({
 }
 
 export default Sidebar
+
